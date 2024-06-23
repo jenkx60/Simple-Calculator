@@ -1,0 +1,30 @@
+.calculation {
+    height: 415px;
+    width: 300px;
+    background-color: rgb(118, 118, 118);
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+input[type="button"], [type="text"]{
+    padding: 1.15em;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    border-radius: 1rem;
+    border: none;
+    background-color: #f0f0f0;
+    margin: .5rem;
+    font-size: 1rem;
+}
+
+input[type="text"]{
+    width: 85%;
+    font-size: 1.1rem;
+}
